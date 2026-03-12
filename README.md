@@ -11,8 +11,8 @@
 -    **Mã môn học:** CS2203
 -    **Mã lớp:** CS2203.CH201
 -    **Năm học:** 2025 - 2026
--    **Giảng viên lý thuyết:** Mai Tiến Dũng
--    **Email Giảng viên lý thuyết:** dungmt@uit.edu.vn
+-    **Giảng viên:** Mai Tiến Dũng
+-    **Email Giảng viên:** dungmt@uit.edu.vn
 
 ## Thông tin nhóm 04
 | STT | MSSV     | Họ và Tên         | GitHub                           | Email                  |
