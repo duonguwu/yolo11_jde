@@ -1,0 +1,21 @@
+# JDE Model Configuration
+
+# Model parameters
+nc: 80  # number of classes (COCO)
+embed_dim: 128  # ReID embedding dimension
+
+# Inference parameters
+conf_thres: 0.25  # confidence threshold for NMS
+iou_thres: 0.45   # IoU threshold for NMS
+max_det: 1000     # maximum detections per image
+agnostic_nms: False  # class-agnostic NMS
+multi_label: False   # multiple labels per box
+
+# Input parameters
+imgsz: 640  # input image size
+device: ''  # device to run on ('' for auto-select)
+half: False  # use FP16 half-precision inference
+
+# Preprocessing
+augment: False  # augmented inference
+visualize: False  # visualize features
