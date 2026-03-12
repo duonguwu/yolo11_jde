@@ -72,11 +72,11 @@ class MetricLearningLoss:
         return self
 
 
-class v8JDELoss:
+class 11JDELoss:
     """Criterion class for computing training losses."""
 
     def __init__(self, model, tal_topk=10):  # model must be de-paralleled
-        """Initializes v8JDELoss with the model, defining model-related properties and BCE loss function."""
+        """Initializes 11JDELoss with the model, defining model-related properties and BCE loss function."""
         device = next(model.parameters()).device  # get model device
         h = model.args  # hyperparameters
 

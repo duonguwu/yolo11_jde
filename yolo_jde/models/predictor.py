@@ -13,7 +13,7 @@ class JDEPredictor(BasePredictor):
         ```python
         from yolo_jde.models.predictor import JDEPredictor
 
-        args = dict(model="yolov8n-jde.pt", source="path/to/video.mp4")
+        args = dict(model="yolo11n-jde.pt", source="path/to/video.mp4")
         predictor = JDEPredictor(overrides=args)
         predictor.predict_cli()
         ```

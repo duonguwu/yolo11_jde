@@ -61,7 +61,7 @@ class DFL(nn.Module):
 
 
 class Detect(nn.Module):
-    """YOLOv8 Detect head for detection models."""
+    """YOLO11 Detect head for detection models."""
     
     dynamic = False  # force grid reconstruction
     export = False  # export mode
@@ -70,7 +70,7 @@ class Detect(nn.Module):
     strides = torch.empty(0)  # init
 
     def __init__(self, nc=80, ch=()):
-        """Initializes the YOLOv8 detection layer with specified number of classes and channels."""
+        """Initializes the YOLO11 detection layer with specified number of classes and channels."""
         super().__init__()
         self.nc = nc  # number of classes
         self.nl = len(ch)  # number of detection layers
@@ -112,7 +112,7 @@ class Detect(nn.Module):
 
 
 class JDE(Detect):
-    """YOLOv8 JDE head for joint detection and embedding models."""
+    """YOLO11 JDE head for joint detection and embedding models."""
 
     def __init__(self, nc=80, embed_dim=128, ch=()):
         """Initialize the YOLO model attributes such as the number of classes, embedding dimension, and the convolution."""

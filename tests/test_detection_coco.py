@@ -33,7 +33,7 @@ def test_imports():
         return False
     
     try:
-        from yolo_jde.utils.loss import v8JDELoss
+        from yolo_jde.utils.loss import 11JDELoss
         print("✅ Loss function import successful")
     except ImportError as e:
         print(f"❌ Loss function import failed: {e}")
